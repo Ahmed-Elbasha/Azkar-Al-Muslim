@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="أذكار المسلم" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OoR-a9-Na3">
-                                <rect key="frame" x="83.5" y="306.5" width="208.5" height="54"/>
+                                <rect key="frame" x="83" y="306.5" width="209" height="54"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="46"/>
                                 <color key="textColor" red="0.85362058877944946" green="0.81667798757553101" blue="0.7450869083404541" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -27,6 +27,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.48834747076034546" green="0.33386898040771484" blue="0.30195057392120361" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="OoR-a9-Na3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="e72-uk-kKa"/>
                             <constraint firstItem="OoR-a9-Na3" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="p9u-IC-m60"/>
                             <constraint firstItem="OoR-a9-Na3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zqh-b2-xyt"/>
                         </constraints>
@@ -35,7 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
 </document>
